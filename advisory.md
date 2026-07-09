@@ -106,17 +106,15 @@ A remote, unauthenticated attacker can cause the server to probe the existence o
 
 ### Affected versions
 
-- `2.40.0`
-- `2.40.1`
-- `2.41.0`
-- `2.42.0`
-- `2.43.0`
+- `>= 2.40.0, < 2.43.1` (all 2.x releases from the feature introduction up to `2.43.0`)
 - `master` branch before `9690e05`
 
 ### Patched versions
 
 - `2.43.1` (or next release after `2.43.0`) — pending release
 - `master` branch `9690e05` and later
+
+_Note: If the next release is versioned `2.44.0` instead of `2.43.1`, update the affected range to `>= 2.40.0, < 2.44.0`._
 
 ## Severity
 
